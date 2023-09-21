@@ -1,12 +1,15 @@
 package week2.day3;
 
-public class Demo extends Audi{
+public class Audi extends Car {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Demo dd = new Demo();
-		dd.engine();
 		
+		Audi a1 = new Audi();
+		a1.color();
+		a1.engine();
+		
+
 	}
 
 }
