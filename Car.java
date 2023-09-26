@@ -1,13 +1,17 @@
-package week2.day3;
+package week3.day2;
 
-public class Car {
-	
-	public void color() {
-		System.out.println("Car Colour: RED");
+public abstract class Car {
+
+	public abstract void carEngine();
+
+	public abstract void carVault();
+
+	public void Employee() {
+		System.out.println("Employee");
 	}
-	
-	public void engine() {
-		System.out.println("This is my Secerat Engine");
+
+	public void Employee1() {
+		System.out.println("Employee");
 	}
 
 }
